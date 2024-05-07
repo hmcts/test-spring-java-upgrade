@@ -1,9 +1,0 @@
-#!groovy
-
-@Library("Infrastructure")
-
-def type = "java"
-def product = "labs"
-def component = "test-spring-java-upgrade"
-
-withPipeline(type, product, component) {}
